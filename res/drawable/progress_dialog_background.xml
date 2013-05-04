@@ -13,17 +13,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@drawable/progress_dialog_background</item>
-    </style>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle"
+       android:visible="true">
 
-    <declare-styleable name="SlidePreferenceAttributes">
-        <attr name="android:title"/>
-        <attr name="android:defaultValue"/>
-        <attr name="slideMinimum"/>
-        <attr name="slideMaximum"/>
-    </declare-styleable>
-</resources>
+    <solid android:color="#9000"/>
+
+</shape>

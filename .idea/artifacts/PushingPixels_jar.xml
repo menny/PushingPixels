@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PushingPixels:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PushingPixels_jar</output-path>
+    <root id="archive" name="PushingPixels.jar">
+      <element id="module-output" name="PushingPixels" />
+    </root>
+  </artifact>
+</component>

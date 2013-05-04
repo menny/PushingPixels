@@ -14,16 +14,6 @@
      limitations under the License.
 -->
 <resources>
-    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@drawable/progress_dialog_background</item>
-    </style>
-
-    <declare-styleable name="SlidePreferenceAttributes">
-        <attr name="android:title"/>
-        <attr name="android:defaultValue"/>
-        <attr name="slideMinimum"/>
-        <attr name="slideMaximum"/>
-    </declare-styleable>
+    <attr name="slideMinimum" format="integer"/>
+    <attr name="slideMaximum" format="integer"/>
 </resources>
